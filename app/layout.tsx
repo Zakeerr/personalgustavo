@@ -35,18 +35,18 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Gustavo Personal" }],
   creator: "Gustavo Personal",
-  alternates: { canonical: "/" },
+  alternates: { canonical: SITE_URL },
   openGraph: {
     type: "website",
     locale: "pt_BR",
-    url: "/",
+    url: SITE_URL,
     title: "Gustavo Personal | Consultoria Fitness Online",
     description:
       "Treinamento personalizado e acompanhamento online para conquistar resultados com segurança, estratégia e constância.",
     siteName: "Gustavo Personal",
     images: [
       {
-        url: "/assets/optimized/imagem2.webp",
+        url: `${SITE_URL}/assets/optimized/imagem2.webp`,
         width: 1672,
         height: 941,
         alt: "Gustavo Personal em ambiente de academia",
@@ -57,11 +57,11 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Gustavo Personal | Consultoria Fitness Online",
     description: "Treinamento personalizado e acompanhamento online para resultados reais.",
-    images: ["/assets/optimized/imagem2.webp"],
+    images: [`${SITE_URL}/assets/optimized/imagem2.webp`],
   },
   icons: {
-    icon: "/icon-32.png",
-    apple: "/apple-icon.png",
+    icon: `${SITE_URL}/icon-32.png`,
+    apple: `${SITE_URL}/apple-icon.png`,
   },
   robots: {
     index: true,

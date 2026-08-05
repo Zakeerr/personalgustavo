@@ -1,4 +1,5 @@
 import Image from "next/image"
+import { assetPath } from "@/lib/site-config"
 import { cn } from "@/lib/utils"
 
 interface BrandLogoProps {
@@ -12,7 +13,7 @@ export function BrandLogo({ compact = false, priority = false, className }: Bran
     <span className={cn("inline-flex min-w-0 items-center gap-3", className)}>
       <span className="logo-frame relative flex h-11 w-11 shrink-0 items-center justify-center overflow-hidden rounded-xl border border-white/10 bg-white/90 shadow-[0_0_24px_rgba(47,128,255,0.22)]">
         <Image
-          src="/assets/optimized/logo.jpeg"
+          src={assetPath("/assets/optimized/imagem1-512.png")}
           alt="Logotipo Gustavo Personal"
           width={512}
           height={512}

@@ -2,7 +2,7 @@ import Image from "next/image"
 import { BadgeCheck, MapPin, Target, Users } from "lucide-react"
 import { Reveal } from "@/components/reveal"
 import { SectionHeading } from "@/components/section-heading"
-import { PROFILE } from "@/lib/site-config"
+import { assetPath, PROFILE } from "@/lib/site-config"
 
 const INFO = [
   { icon: BadgeCheck, label: "Registro profissional", value: `CREF ${PROFILE.cref}` },
@@ -61,7 +61,7 @@ export function About() {
               <figure className="premium-card glow-border relative overflow-hidden rounded-[1.4rem] p-1.5 sm:rounded-[1.65rem] sm:p-2">
                 <div className="relative overflow-hidden rounded-[1.08rem] sm:rounded-[1.25rem]">
                   <Image
-                    src="/assets/optimized/imagem9.webp"
+                    src={assetPath("/assets/optimized/imagem9.webp")}
                     alt="Retrato do personal trainer Gustavo"
                     width={864}
                     height={1184}

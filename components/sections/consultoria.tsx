@@ -3,14 +3,14 @@ import { ArrowUpRight, Check, Sparkles } from "lucide-react"
 import { WhatsAppIcon } from "@/components/icons/whatsapp"
 import { Reveal } from "@/components/reveal"
 import { SectionHeading } from "@/components/section-heading"
-import { PLANOS, whatsappPlanoUrl } from "@/lib/site-config"
+import { assetPath, PLANOS, whatsappPlanoUrl } from "@/lib/site-config"
 import { cn } from "@/lib/utils"
 
 export function Consultoria() {
   return (
     <section id="consultoria" className="relative overflow-hidden py-9 sm:py-16 lg:py-24">
       <Image
-        src="/assets/optimized/imagem1-512.png"
+        src={assetPath("/assets/optimized/imagem1-512.png")}
         alt=""
         width={240}
         height={240}

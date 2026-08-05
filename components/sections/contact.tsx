@@ -3,7 +3,7 @@ import { ArrowUpRight } from "lucide-react"
 import { InstagramIcon } from "@/components/icons/instagram"
 import { WhatsAppIcon } from "@/components/icons/whatsapp"
 import { Reveal } from "@/components/reveal"
-import { INSTAGRAM_URL, WHATSAPP_DISPLAY, WHATSAPP_URL } from "@/lib/site-config"
+import { assetPath, INSTAGRAM_URL, WHATSAPP_DISPLAY, WHATSAPP_URL } from "@/lib/site-config"
 
 export function Contact() {
   return (
@@ -15,7 +15,7 @@ export function Contact() {
           <div className="grid md:grid-cols-[0.86fr_1.14fr]">
             <div className="relative min-h-[17rem] overflow-hidden sm:min-h-[27rem] md:min-h-full">
               <Image
-                src="/assets/optimized/perfil.png"
+                src={assetPath("/assets/optimized/imagem9.webp")}
                 alt="Personal trainer Gustavo"
                 fill
                 loading="lazy"

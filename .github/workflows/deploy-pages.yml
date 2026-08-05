@@ -27,7 +27,7 @@ jobs:
           node-version: 24
 
       - name: Instalar dependências
-        run: npm install
+        run: npm ci
 
       - name: Validar tipos
         run: npm run typecheck

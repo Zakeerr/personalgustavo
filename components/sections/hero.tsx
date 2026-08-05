@@ -1,4 +1,5 @@
 import { ArrowDownRight, ArrowRight } from "lucide-react"
+import { assetPath } from "@/lib/site-config"
 
 function HeroCopy({ mobile = false }: { mobile?: boolean }) {
   return (
@@ -31,7 +32,7 @@ export function Hero() {
       <div className="lg:hidden">
         <div className="relative mt-[4.5rem] h-[55svh] min-h-[22rem] max-h-[32rem] overflow-hidden bg-black">
           <img
-            src="/assets/optimized/imagem3.webp"
+            src={assetPath("/assets/optimized/imagem3.webp")}
             alt="Gustavo, personal trainer, em ambiente de academia com iluminação azul"
             width={941}
             height={1672}
@@ -51,7 +52,7 @@ export function Hero() {
       <div className="relative hidden min-h-[760px] lg:flex lg:h-[100svh] lg:items-center">
         <div className="absolute inset-0 overflow-hidden bg-black">
           <img
-            src="/assets/optimized/imagem2.webp"
+            src={assetPath("/assets/optimized/imagem2.webp")}
             alt="Gustavo, personal trainer, em ambiente de academia com iluminação azul"
             width={1600}
             height={1066}

@@ -1,0 +1,13 @@
+CORREÇÃO PARA GITHUB PAGES — PERSONALGUSTAVO
+
+Problema corrigido:
+- O site é publicado em https://zakeerr.github.io/personalgustavo/
+- CSS, JavaScript, imagens e vídeos estavam sendo procurados na raiz do domínio.
+- Por isso o HTML aparecia sem estilo e as mídias ficavam quebradas.
+
+Alterações:
+- basePath e assetPrefix configurados para /personalgustavo em produção.
+- Caminhos de imagens, vídeos, capas e logo adaptados ao subdiretório.
+- SITE_URL atualizado.
+- Metadados, favicon, Open Graph, sitemap e robots corrigidos.
+- Sitemap e robots marcados como estáticos para output: export.
