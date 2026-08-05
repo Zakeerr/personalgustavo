@@ -148,7 +148,7 @@ export const VIDEOS = [
   {
     src: assetPath("/videos/video2.mp4"),
     poster: assetPath("/videos/posters/video2.webp"),
-    instagram: "https://www.instagram.com/reel/DYDE2zEpkT2/",
+    instagram: "https://www.instagram.com/reel/DKM_1iitLma/?igsh=MTBsN3llZXpydzZiaw==",
   },
   {
     src: assetPath("/videos/video3.mp4"),

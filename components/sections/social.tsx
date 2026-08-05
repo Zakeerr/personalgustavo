@@ -22,7 +22,7 @@ export function Social() {
 
         <div className="mt-8 grid grid-cols-1 justify-items-center gap-4 sm:mt-10 sm:grid-cols-2 sm:gap-5 lg:mt-12 lg:grid-cols-4">
           {VIDEOS.map((video, index) => (
-            <Reveal key={video.src} delay={(index % 4) * 70} className="w-full">
+            <Reveal key={video.instagram} delay={(index % 4) * 70} className="w-full">
               <ReelVideo
                 src={video.src}
                 poster={video.poster}

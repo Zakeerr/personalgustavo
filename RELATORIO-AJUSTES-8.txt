@@ -1,0 +1,17 @@
+AJUSTES REALIZADOS — V8
+
+SOBRE MIM
+- Removido completamente o bloco de formações, cursos e qualificações.
+- Removida a listagem textual detalhada das formações para evitar repetição e excesso de altura.
+- Conteúdo restante reorganizado em introdução, metodologia, objetivos e frase final.
+- Títulos, parágrafos, cartões, margens e espaçamentos reduzidos no celular.
+- Foto reduzida, centralizada e posicionada depois do conteúdo no mobile.
+
+REDE SOCIAL
+- Mantida a quantidade original de quatro conteúdos.
+- Conteúdo 02 substituído pelo novo vídeo enviado.
+- Criada uma nova capa exclusiva para o vídeo 02.
+- Link do conteúdo 02 configurado para:
+  https://www.instagram.com/reel/DKM_1iitLma/?igsh=MTBsN3llZXpydzZiaw==
+- Clique no vídeo e no botão direciona para o Reel correto.
+- Mantidos autoplay silencioso, loop, ausência de controles e layout responsivo.

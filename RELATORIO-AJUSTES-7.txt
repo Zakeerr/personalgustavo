@@ -1,0 +1,18 @@
+AJUSTES V7 — REDE SOCIAL E SOBRE MIM
+
+1. REDE SOCIAL
+- Conteúdo 02 substituído pelo arquivo local video1.mp4 presente no ZIP.
+- Capa do Conteúdo 02 atualizada para corresponder ao novo vídeo.
+- Link do Conteúdo 02 atualizado para o Reel DKM_1iitLma.
+- Área inteira do vídeo agora também abre o Instagram.
+- Mantidos autoplay silencioso, loop, pausa fora da tela e ausência de controles.
+
+2. SOBRE MIM
+- Texto integral atualizado conforme solicitado.
+- Introdução dividida em parágrafos curtos.
+- Formações organizadas em cartões compactos.
+- Metodologia destacada em bloco próprio.
+- Objetivos organizados em tópicos responsivos.
+- Mensagem final destacada.
+- No celular, todo o texto aparece antes da foto.
+- Foto reduzida e centralizada no mobile.

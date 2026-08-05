@@ -1,0 +1,18 @@
+COMO ATUALIZAR O GITHUB
+
+1. Extraia este ZIP.
+2. Copie todos os arquivos extraídos para:
+   C:\Users\isaq\Desktop\personalgustavo-envio-final
+3. Ao copiar, substitua os arquivos existentes.
+4. Não apague a pasta oculta .git da pasta personalgustavo-envio-final.
+5. Abra o PowerShell e execute:
+
+cd "C:\Users\isaq\Desktop\personalgustavo-envio-final"
+npm install
+npm run build
+git status
+git add -A
+git commit -m "Atualizar Sobre Mim e video da Rede Social"
+git push origin main
+
+Depois, aguarde o GitHub Actions ficar verde e atualize o site com Ctrl + F5.

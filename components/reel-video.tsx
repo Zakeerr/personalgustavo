@@ -63,7 +63,13 @@ export function ReelVideo({ src, poster, instagram, index }: ReelVideoProps) {
 
   return (
     <article className="premium-card mx-auto w-full max-w-[19.5rem] overflow-hidden rounded-2xl transition duration-300 hover:-translate-y-1 hover:border-primary/55 hover:shadow-[0_18px_55px_-28px_rgba(48,126,255,0.58)] sm:max-w-none">
-      <div className="relative aspect-[9/15.5] w-full overflow-hidden bg-black sm:aspect-[9/16]">
+      <a
+        href={instagram}
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label={`Abrir conteúdo ${index + 1} no Instagram`}
+        className="group/video relative block aspect-[9/15.5] w-full overflow-hidden bg-black sm:aspect-[9/16]"
+      >
         <video
           ref={videoRef}
           src={src}
@@ -80,7 +86,7 @@ export function ReelVideo({ src, poster, instagram, index }: ReelVideoProps) {
           onError={() => setFailed(true)}
           onContextMenu={(event) => event.preventDefault()}
           aria-label={`Vídeo de conteúdo fitness ${index + 1}`}
-          className="pointer-events-none h-full w-full select-none object-cover"
+          className="pointer-events-none h-full w-full select-none object-cover transition duration-500 group-hover/video:scale-[1.018]"
         />
 
         {!ready && !failed && (
@@ -99,7 +105,7 @@ export function ReelVideo({ src, poster, instagram, index }: ReelVideoProps) {
         <span className="pointer-events-none absolute left-3 top-3 rounded-full border border-white/15 bg-black/45 px-2.5 py-1 text-[0.65rem] font-bold uppercase tracking-[0.14em] text-white backdrop-blur">
           Conteúdo {String(index + 1).padStart(2, "0")}
         </span>
-      </div>
+      </a>
 
       <a
         href={instagram}
