@@ -1,0 +1,36 @@
+GUSTAVO PERSONAL — MELHORIAS APLICADAS
+
+VISUAL E EXPERIÊNCIA
+- Identidade premium em azul-marinho, preto, branco e azul elétrico.
+- Cabeçalho fixo, menu hambúrguer e destaque automático da seção ativa.
+- Hero responsivo com imagem2 no desktop e imagem3 no celular.
+- No celular, a imagem aparece antes e o texto fica completamente abaixo.
+- Botões com brilho, efeito de passagem de luz, foco visível e boa área de toque.
+- Cards, bordas, sombras e animações refinados sem efeitos pesados.
+- Suporte a prefers-reduced-motion.
+
+CONTEÚDO
+- Seções Início, Sobre mim, Resultados, Redes sociais, Depoimentos,
+  Consultoria e Contato revisadas e reorganizadas.
+- Todos os resultados e textos do roteiro foram preservados.
+- Planos configuráveis sem valores inventados.
+- Links personalizados de WhatsApp por plano.
+
+MÍDIAS
+- Arquivos originais preservados.
+- Cópias WebP otimizadas criadas para reduzir o carregamento.
+- Capas reais extraídas dos quatro vídeos.
+- Reels reproduzem ao entrar na tela, pausam ao sair e evitam reprodução
+  simultânea no celular.
+- Lightbox acessível para ampliar resultados e depoimentos.
+
+TÉCNICO
+- Next.js, TypeScript e Tailwind CSS.
+- Componentes reutilizáveis e configurações centralizadas.
+- SEO, Open Graph, robots.txt e sitemap.
+- Exportação estática configurada.
+- Workflow incluído para GitHub Pages.
+- Sem dependências visuais desnecessárias.
+
+Para editar preços, WhatsApp, Instagram, domínio e dados profissionais:
+lib/site-config.ts

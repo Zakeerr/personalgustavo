@@ -1,0 +1,19 @@
+AJUSTES MOBILE — V3
+
+1. RESULTADOS
+- Cards reduzidos e centralizados no celular.
+- Imagens com altura máxima no mobile para evitar excesso visual.
+- Mantido brilho azul forte nas bordas.
+- Sem rolagem horizontal.
+
+2. DEPOIMENTOS
+- Carrossel mobile com cards menores e mais proporcionais.
+- Imagens com altura máxima reduzida no celular.
+- Botões e espaçamentos ajustados.
+
+3. SOBRE MIM
+- Removido o bloco “Atendimento online e personalizado”.
+
+4. CABEÇALHO / INÍCIO
+- Removido o botão “Falar com Gustavo” do topo.
+- Layout do cabeçalho mantido equilibrado com logo e menu.

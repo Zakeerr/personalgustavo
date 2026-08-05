@@ -1,0 +1,16 @@
+# Dependências e builds
+node_modules/
+.next/
+out/
+
+# Variáveis locais
+.env*.local
+
+# Sistemas e editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Hospedagem
+.vercel/

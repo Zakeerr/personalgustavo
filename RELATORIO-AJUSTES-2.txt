@@ -1,0 +1,34 @@
+AJUSTES ADICIONAIS REALIZADOS — GUSTAVO PERSONAL
+
+1. Seção inicial
+- Removidos o selo superior e os cards de diferenciais exibidos no topo.
+- Hero reorganizado para mobile: imagem primeiro e conteúdo abaixo.
+- Espaçamento ajustado para evitar áreas vazias.
+
+2. Linha preta / divisões visuais
+- Removidas bordas horizontais que criavam separações visuais indesejadas.
+- Seções de Resultados e Depoimentos ficaram com transição mais contínua.
+
+3. Botões de WhatsApp
+- Adicionado ícone de WhatsApp em:
+  - cabeçalho
+  - menu mobile
+  - cards de consultoria
+  - seção de contato
+  - rodapé
+  - botão flutuante
+
+4. Rede Social no celular
+- Vídeos limitados a largura máxima no mobile.
+- Cards centralizados e com altura mais equilibrada.
+- Mantido autoplay inteligente, mute, loop e pausa fora da área visível.
+
+5. Melhorias gerais de mobile
+- Ajustado espaçamento vertical padrão das seções.
+- Proteção extra contra overflow horizontal no main.
+- Menu mobile com scroll interno quando necessário.
+
+6. Resultados
+- Adicionado brilho azul mais forte nas fotos de antes e depois.
+- Aplicado efeito de glow contínuo e hover mais perceptível.
+- Primeiras imagens configuradas para carregar de forma mais rápida.

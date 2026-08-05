@@ -1,0 +1,13 @@
+AJUSTES MOBILE — V4
+
+1. SEÇÃO SOBRE MIM
+- No celular, o texto e os dados profissionais aparecem antes da foto.
+- No desktop, a composição original em duas colunas foi preservada.
+- Foto reduzida e centralizada no mobile.
+- Títulos, texto, cards, ícones e espaçamentos ficaram mais compactos.
+- Proteção contra textos e elementos ultrapassarem a largura da tela.
+
+2. VÍDEOS
+- Removidos os botões visíveis de reprodução e volume.
+- Desativados controles nativos, download, tela cheia, picture-in-picture e reprodução remota.
+- Mantido autoplay silencioso quando visível, loop e pausa quando sai da tela.

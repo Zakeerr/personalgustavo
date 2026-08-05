@@ -1,0 +1,18 @@
+AJUSTES MOBILE — V5
+
+CONSULTORIA
+- Redução do espaçamento vertical da seção no celular.
+- Cards com padding, bordas e distância entre planos menores.
+- Títulos, preço, descrições, benefícios e ícones reduzidos no mobile.
+- Botões mantidos acessíveis, porém mais compactos.
+- Layout desktop preservado a partir dos breakpoints maiores.
+
+CONTATO
+- Imagem principal com altura reduzida no celular.
+- Conteúdo interno, título, descrição e margens mais compactos.
+- Botões de WhatsApp e Instagram menores, mantendo área de toque adequada.
+- Ícone oficial do WhatsApp preservado.
+- Seção com menor altura total e melhor equilíbrio visual.
+
+EXTRA
+- Botão flutuante do WhatsApp ligeiramente reduzido no celular para cobrir menos conteúdo.
