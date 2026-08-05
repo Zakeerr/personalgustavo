@@ -50,7 +50,7 @@ export function About() {
                   </strong>
                 </p>
                 <p>
-                  Tenho formação em Kettlebell Nível 1 e Nível 2, curso de Biomecânica pela USP, formação em Reabilitação Funcional pela FISIO UP e em Avaliação e Reprogramação do Movimento Humano.
+                  Meu trabalho atende principalmente quem deseja ganhar força, melhorar a mobilidade, reduzir dores, emagrecer com segurança e conquistar mais qualidade de vida, sem treinos genéricos.
                 </p>
               </div>
             </Reveal>

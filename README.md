@@ -6,7 +6,8 @@ Site de página única desenvolvido em Next.js, TypeScript e Tailwind CSS. O pro
 
 Abra `lib/site-config.ts` e altere:
 
-- `PRECO_MENSAL`
+- `PRECO_HIBRIDO`
+- `PRECO_CONSULTORIA_SIMPLES`
 - `PRECO_TRIMESTRAL`
 - `WHATSAPP_NUMBER`
 - `INSTAGRAM_URL`

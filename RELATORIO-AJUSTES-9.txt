@@ -1,0 +1,10 @@
+AJUSTES — V9
+
+SEÇÃO CONSULTORIA
+- Criado plano Híbrido por R$ 300/mês.
+- Criado plano Consultoria simples por R$ 150/mês.
+- Atualizado plano Trimestral para R$ 300/3 meses.
+- Incluída 1 avaliação presencial no plano trimestral.
+- Ordem dos cartões: nome, preço, descrição, benefícios e WhatsApp.
+- Mensagem do WhatsApp identifica o plano e o preço selecionados.
+- Layout mobile em coluna única, mais compacto e sem rolagem horizontal.

@@ -44,44 +44,45 @@ export const PROFILE = {
   publico: "Mulheres com mais de 40 anos",
 } as const
 
-// Preços ---------------------------------------------------------------------
-// Preencha os valores entre aspas. Enquanto estiverem vazios, o site exibirá
-// “Valor sob consulta”, sem inventar um preço.
-export const PRECO_MENSAL = ""
-export const PRECO_TRIMESTRAL = ""
+// Preços e planos -------------------------------------------------------------
+// Valores fornecidos pelo Gustavo na referência de agosto de 2026.
+export const PRECO_HIBRIDO = "R$ 300/mês"
+export const PRECO_CONSULTORIA_SIMPLES = "R$ 150/mensal"
+export const PRECO_TRIMESTRAL = "R$ 300/3 meses"
 
 export const PLANOS = [
   {
-    id: "mensal",
-    nome: "Plano mensal",
-    resumo: "Acompanhamento individual por 1 mês",
-    preco: PRECO_MENSAL,
-    periodo: "por mês",
-    destaque: false,
+    id: "hibrido",
+    nome: "Híbrido",
+    preco: PRECO_HIBRIDO,
+    periodo: "mensal",
+    resumo: "1 aula por semana (4 aulas) + planejamento de treino.",
     beneficios: [
-      "Um mês de acompanhamento",
-      "Treino personalizado",
-      "Ajustes de acordo com a evolução",
-      "Suporte durante o acompanhamento",
-      "Pagamento via Pix ou cartão de crédito",
+      "1 aula por semana",
+      "4 aulas no mês",
+      "Planejamento de treino",
+    ],
+  },
+  {
+    id: "consultoria-simples",
+    nome: "Consultoria simples",
+    preco: PRECO_CONSULTORIA_SIMPLES,
+    periodo: "mensal",
+    resumo: "Consultoria simples com acompanhamento mensal.",
+    beneficios: [
+      "Consultoria simples",
+      "Acompanhamento mensal",
     ],
   },
   {
     id: "trimestral",
-    nome: "Plano trimestral",
-    resumo: "Mais tempo para construir uma evolução consistente",
+    nome: "Trimestral",
     preco: PRECO_TRIMESTRAL,
-    periodo: "a cada 3 meses",
-    destaque: true,
-    selo: "Melhor escolha",
+    periodo: "pacote de 3 meses",
+    resumo: "Acompanhamento completo durante 3 meses.",
     beneficios: [
-      "Três meses de acompanhamento",
-      "Pague dois meses e ganhe o terceiro gratuitamente",
-      "Treino personalizado",
-      "Ajustes durante o acompanhamento",
-      "Suporte contínuo",
-      "Pagamento via Pix ou cartão de crédito",
-      "Possibilidade de parcelamento",
+      "3 meses de acompanhamento",
+      "1 avaliação presencial",
     ],
   },
 ] as const
