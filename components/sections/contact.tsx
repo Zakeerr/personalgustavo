@@ -15,7 +15,7 @@ export function Contact() {
           <div className="grid md:grid-cols-[0.86fr_1.14fr]">
             <div className="relative min-h-[17rem] overflow-hidden sm:min-h-[27rem] md:min-h-full">
               <Image
-                src={assetPath("/assets/optimized/imagem9.webp")}
+                src={assetPath("/assets/optimized/gustavo.png")}
                 alt="Personal trainer Gustavo"
                 fill
                 loading="lazy"
