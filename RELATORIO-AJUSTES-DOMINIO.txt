@@ -1,0 +1,16 @@
+CORREÇÃO PARA DOMÍNIO PRÓPRIO — GUSTAVO PERSONAL
+
+Domínio configurado: https://gustavom40.com.br
+
+Alterações realizadas:
+- Removido basePath /personalgustavo do Next.js.
+- Todos os CSS e JavaScript passam a carregar pela raiz /_next/.
+- Imagens e vídeos passam a carregar por /assets/ e /videos/.
+- SITE_URL atualizado para o domínio próprio.
+- Sitemap, robots, canonical, Open Graph e ícones passam a usar o domínio próprio.
+
+IMPORTANTE:
+No GitHub, em Settings > Pages > Custom domain, mantenha:
+gustavom40.com.br
+
+Depois do deploy verde, abra o site e pressione Ctrl + F5.

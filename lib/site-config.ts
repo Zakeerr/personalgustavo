@@ -4,16 +4,11 @@
 // ============================================================================
 
 // Troque pelo domínio definitivo quando publicar o projeto.
-export const SITE_URL = "https://zakeerr.github.io/personalgustavo"
+export const SITE_URL = "https://gustavom40.com.br"
 
-// O site está publicado em uma subpasta do GitHub Pages.
-// Em desenvolvimento local, os arquivos continuam acessíveis pela raiz.
-export const BASE_PATH =
-  process.env.NODE_ENV === "production" ? "/personalgustavo" : ""
-
+// Com domínio próprio, o site é publicado diretamente na raiz.
 export function assetPath(path: string) {
-  const normalizedPath = path.startsWith("/") ? path : `/${path}`
-  return `${BASE_PATH}${normalizedPath}`
+  return path.startsWith("/") ? path : `/${path}`
 }
 
 // Contato --------------------------------------------------------------------

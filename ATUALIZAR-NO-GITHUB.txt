@@ -1,15 +1,24 @@
-COMO ATUALIZAR NO GITHUB — V9
+ATUALIZAR O SITE COM DOMÍNIO PRÓPRIO
 
 1. Extraia este ZIP.
-2. Copie os arquivos para a pasta conectada ao repositório:
+2. Copie o conteúdo para a pasta ligada ao GitHub:
    C:\Users\isaq\Desktop\personalgustavo-envio-final
-3. Não copie as pastas .git, node_modules, .next ou out.
-4. No PowerShell, execute:
+3. Não copie nem apague a pasta oculta .git.
 
+Comando para copiar:
+robocopy "CAMINHO-DA-PASTA-EXTRAIDA" "C:\Users\isaq\Desktop\personalgustavo-envio-final" /E /XD ".git" "node_modules" ".next" "out"
+
+Depois execute:
 cd "C:\Users\isaq\Desktop\personalgustavo-envio-final"
 npm install
+Remove-Item -Recurse -Force ".next" -ErrorAction SilentlyContinue
+Remove-Item -Recurse -Force "out" -ErrorAction SilentlyContinue
 npm run build
 git status
 git add -A
-git commit -m "Atualizar planos e preços da consultoria"
+git commit -m "Corrigir site para dominio proprio"
 git push origin main
+
+No GitHub:
+Settings > Pages > Custom domain = gustavom40.com.br
+Aguarde o Actions ficar verde e pressione Ctrl + F5 no navegador.
